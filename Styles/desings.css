@@ -7,12 +7,15 @@
 body {
     margin: 0;
     padding: 0;
+    background: -webkit-linear-gradient(90deg, #0f134f,#273270,#494c8c);background: linear-gradient(90deg, #0f134f,#273270,#494c8c);
+    /*background: #020024;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(121, 43, 9, 1) 35%, rgba(255, 136, 0, 1) 100%);*/
 }
 
 .main-header {
     width: 100%;
     height: 80px;
-    background-color: cornflowerblue;
+    /*background-color: cornflowerblue;*/
     display: fixed;
 }
 
@@ -29,20 +32,21 @@ body {
     left: 27px;
 }
 
-.content-nav{
+.content-nav {
     justify-content: space-between;
     position: relative;
     right: 27px;
 }
 
-.nav-link{
+.nav-link {
     padding: 8px 17px;
     color: aliceblue;
     text-decoration: none;
     font-size: 19px;
 }
 
-.nav-link:hover{
-    background-color: rgb(117, 117, 117);
+.nav-link:hover {
+    background-color: rgba(27, 26, 26, 0.125);
     border-radius: 10px;
+    color: #c5c8f7;
 }
