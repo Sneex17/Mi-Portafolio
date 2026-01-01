@@ -1,5 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Asul:wght@400;700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
-*{
+* {
     font-family: "Rubik";
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main-header {
+    width: 100%;
+    height: 80px;
+    background-color: cornflowerblue;
+    display: fixed;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.main-text {
+    color: aliceblue;
+    position: relative;
+    left: 27px;
+}
+
+.content-nav{
+    justify-content: space-between;
+    position: relative;
+    right: 27px;
+}
+
+.nav-link{
+    padding: 8px 17px;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+.nav-link:hover{
+    background-color: rgb(117, 117, 117);
+    border-radius: 10px;
 }
