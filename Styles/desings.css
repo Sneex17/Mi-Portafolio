@@ -14,6 +14,8 @@ body {
     padding: 0;
     background: -webkit-linear-gradient(90deg, #0f134f, #273270, #494c8c);
     background: linear-gradient(90deg, #0f134f, #273270, #494c8c);
+     box-sizing: border-box;
+     
     /*background: #020024;
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(121, 43, 9, 1) 35%, rgba(255, 136, 0, 1) 100%);*/
 }
@@ -31,6 +33,7 @@ body {
 .boton {
     display: none;
 }
+
 .fa-bars {
     font-size: 30px;
 }
@@ -75,6 +78,7 @@ body {
     .main-header {
         height: 60px;
     }
+
     .main-text {
         top: 5px;
         font-size: 10px;
