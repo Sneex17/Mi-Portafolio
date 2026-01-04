@@ -12,7 +12,8 @@ html {
 body {
     margin: 0;
     padding: 0;
-    background: -webkit-linear-gradient(90deg, #0f134f,#273270,#494c8c);background: linear-gradient(90deg, #0f134f,#273270,#494c8c);
+    background: -webkit-linear-gradient(90deg, #0f134f, #273270, #494c8c);
+    background: linear-gradient(90deg, #0f134f, #273270, #494c8c);
     /*background: #020024;
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(121, 43, 9, 1) 35%, rgba(255, 136, 0, 1) 100%);*/
 }
@@ -20,11 +21,19 @@ body {
 .main-header {
     width: 100%;
     height: 80px;
+    /*background-color: rgb(28, 88, 255);*/
     background-color: rgba(42, 42, 42, 0.287);
     position: fixed;
     z-index: 1000;
 }
 
+
+.boton {
+    display: none;
+}
+.fa-bars {
+    font-size: 30px;
+}
 
 .content {
     display: flex;
@@ -56,4 +65,48 @@ body {
     background-color: rgba(27, 26, 26, 0.125);
     border-radius: 10px;
     color: #c5c8f7;
+}
+
+
+/*Resposive tablets and cellphones*/
+@media screen and (max-width: 950px) {
+
+
+    .main-header {
+        height: 60px;
+    }
+    .main-text {
+        top: 5px;
+        font-size: 10px;
+
+    }
+
+    .boton {
+        display: flex;
+        position: relative;
+        top: 4px;
+        right: 17px;
+        cursor: pointer;
+        background-color: transparent;
+        border-style: none;
+    }
+
+    .fa-bars {
+        color: aliceblue;
+    }
+
+    .content-nav {
+        top: 70px;
+        right: 10px;
+        padding: 20px;
+        background-color: #0f134f64;
+        border-radius: 17px;
+        position: absolute;
+        display: none;
+        flex-direction: column;
+    }
+
+    .nav-menu-v {
+        display: flex;
+    }
 }
