@@ -108,9 +108,11 @@ body {
         position: absolute;
         display: none;
         flex-direction: column;
+     
     }
 
     .nav-menu-v {
         display: flex;
+    
     }
 }
