@@ -10,9 +10,9 @@
     padding: 0;
     width: 100%;
     height: auto;
-   /* border: black solid 1px;*/
+    /* border: black solid 1px;*/
     background-color: rgb(119, 148, 173);
- 
+
 }
 
 .main-text-proyc {
@@ -20,6 +20,7 @@
     justify-content: center;
     align-items: center;
 }
+
 .cont-proyects {
     position: relative;
     margin: 0;
@@ -30,7 +31,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    
+
 }
 
 
@@ -40,12 +41,14 @@
     width: 300px;
     height: 200px;
     background-color: brown;
+    display: flex;
+    flex-direction: column;
     border-radius: 17px;
-    border: black solid 1px;
+    /*border: black solid 1px;*/
 }
 
 .me-proyects:hover {
-     box-shadow: 0 0 17px rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 17px rgba(0, 0, 0, 0.8);
     transition: all 0.4s ease-in-out;
     transform: scale(1.07);
 }
@@ -54,5 +57,57 @@
     color: aliceblue;
     display: flex;
     padding-left: 1.7rem;
+
+}
+
+.text-proyect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    border-radius: 17px 17px 0 0;
+    /*background: linear-gradient(180deg,rgba(0, 0, 0, 0.785) 0%, transparent);*/
+    background: linear-gradient(180deg,rgb(29, 29, 29) 0%, rgba(29, 29, 29, 0.692) 50%, transparent);
     
+}
+
+.descrip-proyc {
+    margin-top: auto;
+    padding: 0 0 17px 17px;
+    background: linear-gradient(90deg, rgb(69, 134, 191) 0%, rgb(61, 45, 125) 100%);
+    border-radius: 0 0 17px 17px;
+}
+
+.descrip-proyc h5 {
+    margin: 0;
+    padding: 7px 0 7px 0;
+}
+.descrip-proyc a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+
+
+
+.proyect1 {
+    color: aliceblue;
+    background-image: url(https://phoenixnap.com/glossary/wp-content/uploads/2023/09/what-is-software-engineering.jpg);
+    background-size: cover;
+}
+.proyect2 {
+    color: aliceblue;
+    background-image: url('/Src/Proyecto2.png');
+    background-size: cover;
+}
+.proyect3 {
+    color: aliceblue;
+    background-image: url(https://blog.qupos.com/hs-fs/hubfs/que-es-un-sistema-punto-de-venta-1.png?width=1600&name=que-es-un-sistema-punto-de-venta-1.png);
+    background-size: cover;
+}
+
+.proyect-cv1 {
+    color: aliceblue;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzyxICAtguEmplzYCmhCfYDVeYiqde9mo-5g&s);
+    background-size: cover;
 }
